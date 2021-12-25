@@ -1,0 +1,109 @@
+.list-items-cards .card .card-img-top-container {
+    min-height: 340px;
+}
+
+.bg-top-image {
+    background-image: url(../images/img1.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+@media (min-width: 1400px) {
+    .bg-top-image {
+        height: 80vh;
+    }
+}
+@media (min-width: 1200px) {
+  .bg-top-image {
+      height: 80vh;
+  }
+}
+@media (min-width: 992px) {
+  .bg-top-image {
+      height: 70vh;
+  }
+}
+@media (min-width: 768px) {
+  .bg-top-image {
+      height: 70vh;
+  }
+}
+@media (min-width: 576px) {
+  .bg-top-image {
+      height: 70vh;
+  }
+}
+@media (max-width: 576px) {
+  .bg-top-image {
+      height: 70vh;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer-basic {
+  flex-shrink: 0;
+}
+.footer-basic {
+    padding:40px 0;
+    background-color:black;
+    color:white;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:white;
+    text-decoration:none;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid white;
+    margin:0 8px;
+    color:inherit;
+  }
+  
+  .footer-basic .company {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:white;
+    margin-bottom:0;
+  }
+.review {
+  color: gray;
+}
